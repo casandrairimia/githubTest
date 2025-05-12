@@ -51,7 +51,7 @@ export default function RosuPage() {
 
     const handleDislike = (index: number) => {
         const newDislikes = [...dislikes];
-        newDislikes[index] += 1;
+        newDislikes[index] += 2;
         setDislikes(newDislikes);
     };
 
